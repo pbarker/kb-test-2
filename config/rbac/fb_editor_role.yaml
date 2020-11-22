@@ -1,0 +1,24 @@
+# permissions for end users to edit fbs.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: fb-editor-role
+rules:
+- apiGroups:
+  - foo.my.domain
+  resources:
+  - fbs
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - foo.my.domain
+  resources:
+  - fbs/status
+  verbs:
+  - get

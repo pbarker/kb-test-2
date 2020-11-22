@@ -1,3 +1,7 @@
 domain: my.domain
 repo: github.com/vmware-tanzu-private/kb-test-2
+resources:
+- group: foo
+  kind: FB
+  version: v1alpha1
 version: "2"

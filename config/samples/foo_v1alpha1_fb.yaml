@@ -1,0 +1,7 @@
+apiVersion: foo.my.domain/v1alpha1
+kind: FB
+metadata:
+  name: fb-sample
+spec:
+  # Add fields here
+  foo: bar
