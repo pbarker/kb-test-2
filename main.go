@@ -26,8 +26,8 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	foov1alpha1 "github.com/vmware-tanzu-private/kb-test-2/api/v1alpha1"
-	"github.com/vmware-tanzu-private/kb-test-2/controllers"
+	foov1alpha1 "github.com/pbarker/kb-test-2/api/v1alpha1"
+	"github.com/pbarker/kb-test-2/controllers"
 	// +kubebuilder:scaffold:imports
 )
 
