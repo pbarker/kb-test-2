@@ -1,4 +1,4 @@
-module github.com/vmware-tanzu-private/kb-test-2
+module github.com/pbarker/kb-test-2
 
 go 1.13
 
