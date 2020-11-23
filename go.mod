@@ -10,3 +10,9 @@ require (
 	k8s.io/client-go v0.17.2
 	sigs.k8s.io/controller-runtime v0.5.0
 )
+
+replace (
+	k8s.io/client-go => ./vendor/k8s.io/client-go
+	sigs.k8s.io/controller-runtime => ./vendor/sigs.k8s.io/controller-runtime
+	k8s.io/apimachinery => ./vendor/k8s.io/apimachinery
+)
